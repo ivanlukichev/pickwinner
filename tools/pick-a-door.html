@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick a Door – Random Prize Door Game | PickWinner Tools</title>
+  <meta name="description" content="Pick a door and reveal hidden prizes instantly. Create suspenseful draws for giveaways, games, and fun decisions.">
+  <link rel="canonical" href="https://pickwinner.tools/tools/pick-a-door.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pick a Door – Random Prize Door Game | PickWinner Tools">
+  <meta property="og:description" content="Pick a door and reveal hidden prizes instantly. Create suspenseful draws for giveaways, games, and fun decisions.">
+  <meta property="og:image" content="https://pickwinner.tools/img/og-preview.svg">
+  <meta property="og:url" content="https://pickwinner.tools/tools/pick-a-door.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pick a Door – Random Prize Door Game | PickWinner Tools">
+  <meta name="twitter:description" content="Pick a door and reveal hidden prizes instantly. Create suspenseful draws for giveaways, games, and fun decisions.">
+  <meta name="twitter:image" content="https://pickwinner.tools/img/og-preview.svg">
+  <meta name="theme-color" content="#F8FAFC">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Pick a Door",
+          "applicationCategory": "UtilityApplication",
+          "operatingSystem": "Web Browser",
+          "isAccessibleForFree": true,
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://pickwinner.tools/tools/pick-a-door.html",
+          "description": "Pick a door and reveal hidden prizes instantly. Create suspenseful draws for giveaways, games, and fun decisions."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pickwinner.tools/" },
+            { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://pickwinner.tools/tools/" },
+            { "@type": "ListItem", "position": 3, "name": "Pick a Door", "item": "https://pickwinner.tools/tools/pick-a-door.html" }
+          ]
+        }
+      ]
+    }
+  </script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/spin-wheel.css">
+  <link rel="stylesheet" href="../css/pick-a-door.css">
+  <script defer src="../js/main.js"></script>
+  <script defer src="../js/pick-a-door.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="PickWinner Tools home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+              <path d="M16 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1L16 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9L16 3z"></path>
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <strong>PickWinner</strong>
+            <span>Tools</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-nav>
+          <a href="/">Home</a>
+          <a href="/tools/" aria-current="page">Tools</a>
+          <a href="/guides/">Guides</a>
+          <a href="/#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="door-page spin-page">
+      <section class="section spin-tool-header">
+        <div class="container">
+          <div class="spin-tool-header__inner" data-reveal>
+            <div>
+              <h1>Pick a Door</h1>
+              <p>Use Pick a Door to hide prizes, names, numbers, or surprise outcomes behind closed doors, then reveal them one by one for giveaways, streams, classroom activities, raffles, and fun decisions. Each door stays hidden until someone chooses it, which makes the result feel playful and suspenseful without adding clutter.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section spin-interface-section">
+        <div class="container">
+          <div class="spin-tool-shell">
+            <aside class="spin-card spin-actions-card" data-reveal>
+              <div class="spin-card__header spin-card__header--tight">
+                <div>
+                  <span class="spin-eyebrow">Actions</span>
+                  <h2>Run the reveal</h2>
+                </div>
+                <p>Shuffle doors, reset the round, open setup, or copy a shareable link for the current hidden set.</p>
+              </div>
+
+              <div class="spin-actions-stack">
+                <button class="button button-secondary" type="button" data-shuffle-button>Shuffle Doors</button>
+                <button class="button button-secondary" type="button" data-reset-button>Reset Doors</button>
+                <button class="button button-primary spin-button-main" type="button" data-open-settings aria-haspopup="dialog" aria-controls="door-settings-modal">Setup Doors</button>
+                <button class="button button-ghost" type="button" data-share-button>Copy Shareable Link</button>
+              </div>
+
+              <div class="spin-stats-stack">
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Doors</span>
+                  <strong data-door-count-stat>0</strong>
+                </div>
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Reveals</span>
+                  <strong data-reveal-count-stat>0</strong>
+                </div>
+              </div>
+
+              <div class="spin-message" data-message role="status" aria-live="polite"></div>
+            </aside>
+
+            <section class="spin-card spin-wheel-card door-main-card" data-reveal>
+              <div class="spin-card__header spin-card__header--tight spin-card__header--centered">
+                <div>
+                  <span class="spin-eyebrow">Door Grid</span>
+                  <h2>Choose a door</h2>
+                </div>
+                <p>Pick one closed door to reveal the hidden result. Opened doors stay visible, and blocked doors remain closed if one-reveal mode is enabled.</p>
+              </div>
+
+              <div class="door-grid" data-door-grid role="list" aria-label="Pick a hidden door result"></div>
+            </section>
+
+            <aside class="spin-card spin-results-card" data-reveal>
+              <div class="spin-result-panel door-result-panel" data-result-panel aria-live="polite">
+                <span class="spin-result-panel__label">Last Reveal</span>
+                <strong data-result-door>Ready to reveal</strong>
+                <p data-result-content>Pick a door to uncover the hidden result.</p>
+              </div>
+
+              <div class="spin-history">
+                <div class="spin-history__header">
+                  <div>
+                    <span class="spin-eyebrow">Results</span>
+                    <h3>Reveal History</h3>
+                    <p>Track which doors were opened and what was hiding behind them.</p>
+                  </div>
+                </div>
+
+                <p class="spin-history__empty" data-history-empty>No reveals yet</p>
+                <p class="spin-history__empty spin-history__hint" data-history-hint>Open a door to build history.</p>
+                <ol class="spin-history__list" data-history-list hidden></ol>
+                <div class="spin-history__actions">
+                  <button class="button button-ghost" type="button" data-clear-history-button>Clear History</button>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <div class="spin-settings-overlay" data-settings-backdrop hidden></div>
+      <aside class="spin-settings-modal" id="door-settings-modal" data-settings-modal hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="door-settings-title">
+        <div class="spin-settings-modal__panel" tabindex="-1">
+          <div class="spin-settings-modal__header">
+            <div>
+              <span class="spin-eyebrow">Setup Doors</span>
+              <h2 id="door-settings-title">Customize your door set</h2>
+              <p>Choose how many doors to show, set the hidden contents, and control how the reveal should behave.</p>
+            </div>
+            <button class="spin-settings-modal__close" type="button" data-close-settings aria-label="Close settings">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="spin-settings-modal__body">
+            <div class="spin-settings-groups">
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Door Setup</h3>
+                  <p>Choose the number of doors and define what is hidden behind each one.</p>
+                </div>
+
+                <div class="spin-settings-subgroup">
+                  <div class="spin-settings-subgroup__header">
+                    <h4>Door count</h4>
+                    <p>Use between 2 and 12 doors depending on how much suspense you want.</p>
+                  </div>
+
+                  <label class="spin-field">
+                    <span class="spin-field__label">Number of doors</span>
+                    <select data-door-count-input aria-label="Number of doors"></select>
+                    <small class="spin-field__note">Choose between 2 and 12 doors.</small>
+                    <span class="spin-field__hint" data-door-count-hint aria-live="polite"></span>
+                  </label>
+                </div>
+
+                <div class="spin-settings-subgroup">
+                  <div class="spin-settings-subgroup__header">
+                    <h4>Door contents</h4>
+                    <p>Add prizes, names, numbers, or any other hidden results you want to reveal.</p>
+                  </div>
+
+                  <div class="spin-item-list" data-item-list></div>
+
+                  <div class="door-setup-actions">
+                    <button class="button button-secondary" type="button" data-modal-shuffle-button>Shuffle Doors</button>
+                  </div>
+                </div>
+              </section>
+
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Reveal Settings</h3>
+                  <p>Decide how the reveal should feel and whether only one door can be opened per round.</p>
+                </div>
+
+                <label class="spin-toggle">
+                  <span>
+                    <strong>Allow door reveal animation</strong>
+                    <small>Use a short opening animation when a closed door is revealed.</small>
+                  </span>
+                  <input data-animation-toggle type="checkbox">
+                </label>
+
+                <label class="spin-toggle">
+                  <span>
+                    <strong>Reveal one only</strong>
+                    <small>Block the remaining closed doors after the first reveal until you reset or shuffle.</small>
+                  </span>
+                  <input data-reveal-one-toggle type="checkbox">
+                </label>
+              </section>
+            </div>
+          </div>
+
+          <div class="spin-settings-modal__footer">
+            <button class="button button-secondary" type="button" data-close-settings>Cancel</button>
+            <button class="button button-primary" type="button" data-save-settings>Done</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="section">
+        <div class="container">
+          <article class="seo-panel door-seo" data-reveal>
+            <span class="section-kicker">About This Tool</span>
+            <p><a href="../guides/pick-a-door-game.html"><strong>Read the full Pick a Door guide</strong></a> for giveaway, stream, and classroom examples built around hidden prize reveals.</p>
+            <h2>What Is a Pick a Door Game</h2>
+            <p>A Pick a Door game is a simple reveal format where each door hides a result until someone chooses it. Instead of showing prizes or outcomes immediately, the tool keeps them hidden and turns the moment of selection into a small event. That makes it useful for giveaways, classroom activities, raffles, streams, and fun group decisions where the reveal matters as much as the final answer.</p>
+            <p>The format works because it is easy to understand. People see a set of closed doors, choose one, and then watch the hidden result appear. That small pause adds suspense without making the tool difficult to use. A pick a door game can hide prizes, names, numbers, or prompts, so it works well in both playful and practical situations.</p>
+
+            <h2>Using Pick a Door for Giveaways</h2>
+            <p>For giveaways, hidden doors make the selection feel more dramatic and memorable. Instead of instantly showing a winner or prize, you let participants choose from a set of unknown outcomes. That creates anticipation while still keeping the setup easy for the organizer. A streamer can hide rewards behind each door, a teacher can hide bonus points, or a host can hide surprise prompts for a live audience.</p>
+            <p>Because the reveal happens one door at a time, the format works especially well for community streams, live raffles, chat games, and interactive prize moments. It feels more playful than a plain list, but it stays cleaner and calmer than a high-noise game interface. For people who want suspense without casino-style visuals, pick-a-door tools are a strong fit.</p>
+            <p>It also works well when you want to mix different types of rewards in the same draw. One door might reveal a grand prize, another a smaller bonus, and another a playful consolation result. That structure keeps the audience interested because every door feels like a meaningful choice. For hosts and creators, it is an easy way to turn a simple prize reveal into something that feels more interactive without adding complicated rules.</p>
+
+            <h2>Pick a Door for Games and Streams</h2>
+            <p>In games and streams, hidden outcomes keep the audience curious. A player might choose a door to reveal a challenge, a streamer might let chat decide which door to open, or a classroom host might use doors to assign mystery tasks. This creates a more interactive moment because the choice feels active rather than automatic. The suspense comes from the hidden result, not from complicated rules.</p>
+            <p>That makes Pick a Door useful for party games, live sessions, school warmups, and quick team activities. If you want a more rotating visual, you can also try the <a href="spin-the-wheel.html">Spin the Wheel</a>. If you need direct list draws, the <a href="random-name-picker.html">Random Name Picker</a> and <a href="random-number-generator.html">Random Number Generator</a> are good alternatives. Pick a Door sits between those formats by mixing simple setup with reveal-driven fun.</p>
+
+            <h2>Why Hidden Results Make Draws More Fun</h2>
+            <p>Hidden results change the feeling of a draw because they add a short moment of uncertainty before the answer appears. Even if the organizer already knows what outcomes are available, the audience still gets to experience a reveal. That is why hidden-door formats stay popular in games, giveaways, and classroom activities. They create suspense while keeping the rules simple enough for everyone to follow.</p>
+            <p>Another advantage is flexibility. Hidden doors can reveal names, prizes, tasks, numbers, or bonus outcomes. That means the same tool can support game rounds, reward reveals, audience choices, and fun decisions with almost no change to the interface. For people who want an easy interactive reveal instead of a plain random list, Pick a Door offers a strong middle ground.</p>
+            <p>That balance is what makes the format so useful. A hidden-door reveal is more visual than a spreadsheet-style draw, but still more structured than a fully animated game. It gives participants something to react to, helps presenters pace the moment, and keeps the interface understandable even for first-time users. When the goal is suspense, clarity, and friendly interaction, hidden results are often more engaging than instant answers.</p>
+            <h2>Related Random Tools</h2>
+            <p>If you want an elegant flip instead of a large reveal, try <a href="pick-a-card.html">Pick a Card</a>. For a more playful prize moment, use <a href="mystery-box-picker.html">Mystery Box Picker</a>. For direct winner selection, <a href="random-name-picker.html">Random Name Picker</a> and <a href="spin-the-wheel.html">Spin the Wheel</a> are strong alternatives.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--compact">
+        <div class="container">
+          <div class="tool-support-grid" data-reveal>
+            <article class="tool-support-card">
+              <span class="section-kicker">Guide</span>
+              <h2>Learn how to use this tool</h2>
+              <p>See practical examples for giveaways, classroom reveals, streams, and prize moments built around hidden doors.</p>
+              <a class="button button-secondary" href="../guides/pick-a-door-game.html">Read the guide</a>
+            </article>
+
+            <article class="tool-support-card">
+              <span class="section-kicker">Fair Randomness</span>
+              <h2>How results are generated</h2>
+              <p>Results are generated using built-in browser randomization functions.</p>
+              <p>Each action produces an independent and unbiased result.</p>
+              <a class="button button-secondary" href="/randomness/">Read the notice</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-panel" data-reveal>
+            <div>
+              <span class="section-kicker">Try the Wheel Picker</span>
+              <h2>Try the Wheel Picker</h2>
+              <p>Prefer spinning instead?</p>
+            </div>
+            <a class="button button-primary" href="spin-the-wheel.html">Open Wheel Tool</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="/">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+                <path d="M16 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1L16 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9L16 3z"></path>
+              </svg>
+            </span>
+            <span class="brand-copy">
+              <strong>PickWinner</strong>
+              <span>Tools</span>
+            </span>
+          </a>
+          <p class="footer-copy">Premium-light random pickers for fair giveaways, quick choices, and friendly reveal tools.</p>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/tools/">Tools</a>
+          <a href="/guides/">Guides</a>
+          <a href="/#about">About</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+          <a href="/terms-of-service.html">Terms of Service</a>
+          <a href="/disclaimer.html">Disclaimer</a>
+          <a href="/cookies.html">Cookies Policy</a>
+          <a href="/randomness/">Randomness Notice</a>
+        </nav>
+        <div class="footer-meta">
+          <p>&copy; <span data-year></span> PickWinner Tools. All rights reserved.</p>
+          <p class="site-footer__credit">by <a href="https://lukichev.biz/" rel="me noopener noreferrer">lukichev.biz</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

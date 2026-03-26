@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" rx="40" fill="#F8FAFC"/>
+  <circle cx="182" cy="142" r="160" fill="url(#paint0_radial)" fill-opacity=".8"/>
+  <circle cx="1026" cy="108" r="120" fill="url(#paint1_radial)" fill-opacity=".75"/>
+  <rect x="68" y="72" width="480" height="486" rx="36" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="612" y="122" width="250" height="180" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="886" y="158" width="248" height="160" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="612" y="334" width="522" height="172" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="108" y="114" width="160" height="40" rx="20" fill="#DBEAFE"/>
+  <path d="M188 198c52 0 94 42 94 94s-42 94-94 94-94-42-94-94 42-94 94-94Z" stroke="#1D4ED8" stroke-width="16"/>
+  <path d="M188 214v156M110 292h156M133 237l110 110M243 237 133 347" stroke="#1D4ED8" stroke-width="12" stroke-linecap="round"/>
+  <text x="108" y="188" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Fair, Fast &amp; Free</text>
+  <text x="108" y="448" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">PickWinner</text>
+  <text x="108" y="506" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">Random Pickers &amp; Giveaway Generators</text>
+  <rect x="652" y="162" width="78" height="78" rx="22" fill="#FEF3C7"/>
+  <path d="M680 182h114v90H680z" stroke="#D97706" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M680 214h114M717 182v90M757 182v90" stroke="#D97706" stroke-width="8" stroke-linecap="round"/>
+  <text x="652" y="270" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Pick a Door</text>
+  <rect x="926" y="196" width="78" height="78" rx="22" fill="#DBEAFE"/>
+  <path d="M948 216h124v124H948z" stroke="#1D4ED8" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M982 252h56M982 286h38M982 320h48" stroke="#1D4ED8" stroke-width="8" stroke-linecap="round"/>
+  <text x="926" y="300" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Random Name Picker</text>
+  <text x="652" y="390" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Winner-ready tool library</text>
+  <text x="652" y="442" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Spin the Wheel, names, cards, doors</text>
+  <text x="652" y="486" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">Premium light design for fair picks, giveaways, and fun decisions.</text>
+  <circle cx="1010" cy="92" r="12" fill="#F59E0B"/>
+  <rect x="1080" y="112" width="18" height="18" rx="9" fill="#22C55E"/>
+  <rect x="1034" y="538" width="22" height="10" rx="5" fill="#60A5FA"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(182 142) rotate(90) scale(160)">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#DBEAFE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1026 108) rotate(90) scale(120)">
+      <stop stop-color="#FEF3C7"/>
+      <stop offset="1" stop-color="#FEF3C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick a Card – Reveal Hidden Choices and Rewards | PickWinner Tools</title>
+  <meta name="description" content="Pick a card and reveal hidden rewards, prompts, and outcomes. A simple card reveal tool for games, giveaways, and fun decisions.">
+  <link rel="canonical" href="https://pickwinner.tools/tools/pick-a-card.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pick a Card – Reveal Hidden Choices and Rewards | PickWinner Tools">
+  <meta property="og:description" content="Pick a card and reveal hidden rewards, prompts, and outcomes. A simple card reveal tool for games, giveaways, and fun decisions.">
+  <meta property="og:image" content="https://pickwinner.tools/img/og-preview.svg">
+  <meta property="og:url" content="https://pickwinner.tools/tools/pick-a-card.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pick a Card – Reveal Hidden Choices and Rewards | PickWinner Tools">
+  <meta name="twitter:description" content="Pick a card and reveal hidden rewards, prompts, and outcomes. A simple card reveal tool for games, giveaways, and fun decisions.">
+  <meta name="twitter:image" content="https://pickwinner.tools/img/og-preview.svg">
+  <meta name="theme-color" content="#F8FAFC">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Pick a Card",
+          "applicationCategory": "UtilityApplication",
+          "operatingSystem": "Web Browser",
+          "isAccessibleForFree": true,
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://pickwinner.tools/tools/pick-a-card.html",
+          "description": "Pick a card and reveal hidden rewards, prompts, and outcomes. A simple card reveal tool for games, giveaways, and fun decisions."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pickwinner.tools/" },
+            { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://pickwinner.tools/tools/" },
+            { "@type": "ListItem", "position": 3, "name": "Pick a Card", "item": "https://pickwinner.tools/tools/pick-a-card.html" }
+          ]
+        }
+      ]
+    }
+  </script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/spin-wheel.css">
+  <link rel="stylesheet" href="../css/pick-a-card.css">
+  <script defer src="../js/main.js"></script>
+  <script defer src="../js/pick-a-card.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="PickWinner Tools home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+              <path d="M16 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1L16 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9L16 3z"></path>
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <strong>PickWinner</strong>
+            <span>Tools</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-nav>
+          <a href="/">Home</a>
+          <a href="/tools/" aria-current="page">Tools</a>
+          <a href="/guides/">Guides</a>
+          <a href="/#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="card-page spin-page">
+      <section class="section spin-tool-header">
+        <div class="container">
+          <div class="spin-tool-header__inner" data-reveal>
+            <div>
+              <h1>Pick a Card</h1>
+              <p>Pick a card to reveal hidden rewards, prompts, names, or surprise choices. This elegant card reveal tool is built for classroom activities, giveaways, party games, fun decisions, and mystery outcomes where the flip itself should feel like part of the moment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section spin-interface-section">
+        <div class="container">
+          <div class="spin-tool-shell">
+            <aside class="spin-card spin-actions-card" data-reveal>
+              <div class="spin-card__header spin-card__header--tight">
+                <div>
+                  <span class="spin-eyebrow">Actions</span>
+                  <h2>Run the reveal</h2>
+                </div>
+                <p>Shuffle the card order, reset the spread, open card setup, or copy a shareable link for the current hidden deck.</p>
+              </div>
+
+              <div class="spin-actions-stack">
+                <button class="button button-secondary" type="button" data-shuffle-button>Shuffle Cards</button>
+                <button class="button button-secondary" type="button" data-reset-button>Reset Cards</button>
+                <button class="button button-primary spin-button-main" type="button" data-open-settings aria-haspopup="dialog" aria-controls="card-settings-modal">Setup Cards</button>
+                <button class="button button-ghost" type="button" data-share-button>Copy Shareable Link</button>
+              </div>
+
+              <div class="spin-stats-stack">
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Cards</span>
+                  <strong data-card-count-stat>0</strong>
+                </div>
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Reveals</span>
+                  <strong data-reveal-count-stat>0</strong>
+                </div>
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Hidden cards</span>
+                  <strong data-hidden-count-stat>0</strong>
+                </div>
+              </div>
+
+              <div class="spin-message" data-message role="status" aria-live="polite"></div>
+            </aside>
+
+            <section class="spin-card spin-wheel-card card-main-card" data-reveal>
+              <div class="spin-card__header spin-card__header--tight spin-card__header--centered">
+                <div>
+                  <span class="spin-eyebrow">Card Reveal</span>
+                  <h2>Choose a card</h2>
+                </div>
+                <p>Flip a card to reveal the hidden result. Open cards stay visible, while closed cards can stay available or lock after one reveal depending on your setup.</p>
+              </div>
+
+              <div class="card-grid" data-card-grid role="list" aria-label="Pick a hidden card result"></div>
+            </section>
+
+            <aside class="spin-card spin-results-card" data-reveal>
+              <div class="spin-result-panel card-result-panel" data-result-panel aria-live="polite">
+                <span class="spin-result-panel__label">Last Reveal</span>
+                <strong data-result-card>Ready to reveal</strong>
+                <p data-result-content>Pick a card to uncover the hidden result.</p>
+              </div>
+
+              <div class="spin-history">
+                <div class="spin-history__header">
+                  <div>
+                    <span class="spin-eyebrow">Results</span>
+                    <h3>Reveal History</h3>
+                    <p>Track which cards were opened and what each reveal contained.</p>
+                  </div>
+                </div>
+
+                <p class="spin-history__empty" data-history-empty>No reveals yet</p>
+                <p class="spin-history__empty spin-history__hint" data-history-hint>Flip a card to build history.</p>
+                <ol class="spin-history__list" data-history-list hidden></ol>
+                <div class="spin-history__actions">
+                  <button class="button button-ghost" type="button" data-clear-history-button>Clear History</button>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <div class="spin-settings-overlay" data-settings-backdrop hidden></div>
+      <aside class="spin-settings-modal" id="card-settings-modal" data-settings-modal hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="card-settings-title">
+        <div class="spin-settings-modal__panel" tabindex="-1">
+          <div class="spin-settings-modal__header">
+            <div>
+              <span class="spin-eyebrow">Setup Cards</span>
+              <h2 id="card-settings-title">Customize your card spread</h2>
+              <p>Choose how many cards to show, set the hidden contents, and control how the reveal should behave.</p>
+            </div>
+            <button class="spin-settings-modal__close" type="button" data-close-settings aria-label="Close settings">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="spin-settings-modal__body">
+            <div class="spin-settings-groups">
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Card Setup</h3>
+                  <p>Use between 2 and 16 cards, then define what each hidden card can reveal.</p>
+                </div>
+
+                <div class="spin-settings-subgroup">
+                  <div class="spin-settings-subgroup__header">
+                    <h4>Card count</h4>
+                    <p>Choose the size of the spread for prompts, prizes, names, or mystery outcomes.</p>
+                  </div>
+
+                  <label class="spin-field">
+                    <span class="spin-field__label">Number of cards</span>
+                    <select data-card-count-input aria-label="Number of cards"></select>
+                    <small class="spin-field__note">Choose between 2 and 16 cards.</small>
+                    <span class="spin-field__hint" data-card-count-hint aria-live="polite"></span>
+                  </label>
+                </div>
+
+                <div class="spin-settings-subgroup">
+                  <div class="spin-settings-subgroup__header">
+                    <h4>Card contents</h4>
+                    <p>Add rewards, prompts, tasks, names, or any other hidden results you want to reveal.</p>
+                  </div>
+
+                  <div class="spin-item-list" data-item-list></div>
+                </div>
+              </section>
+
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Reveal Options</h3>
+                  <p>Decide whether multiple cards can be opened and whether to show card numbers on the back.</p>
+                </div>
+
+                <label class="spin-toggle">
+                  <span>
+                    <strong>Reveal one only</strong>
+                    <small>Lock the remaining closed cards after the first reveal until you reset or shuffle.</small>
+                  </span>
+                  <input data-reveal-one-toggle type="checkbox">
+                </label>
+
+                <label class="spin-toggle">
+                  <span>
+                    <strong>Show card numbers on back</strong>
+                    <small>Display Card 1, Card 2, and other labels on the closed card backs.</small>
+                  </span>
+                  <input data-show-labels-toggle type="checkbox">
+                </label>
+              </section>
+
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Actions</h3>
+                  <p>Quick ways to reshuffle, share, or fully reset the current card setup.</p>
+                </div>
+
+                <div class="card-modal-actions">
+                  <button class="button button-secondary" type="button" data-modal-shuffle-button>Shuffle Cards</button>
+                  <button class="button button-ghost" type="button" data-modal-share-button>Copy Shareable Link</button>
+                  <button class="button button-ghost" type="button" data-modal-reset-button>Reset Tool</button>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="spin-settings-modal__footer">
+            <button class="button button-secondary" type="button" data-close-settings>Cancel</button>
+            <button class="button button-primary" type="button" data-save-settings>Done</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="section">
+        <div class="container">
+          <article class="seo-panel card-seo" data-reveal>
+            <span class="section-kicker">About This Tool</span>
+            <p><a href="../guides/pick-a-card-guide.html"><strong>Read the full Pick a Card guide</strong></a> for reward, prompt, classroom, and giveaway ideas built around elegant card reveals.</p>
+            <h2>What Is a Pick a Card Tool</h2>
+            <p>A pick a card tool lets people choose from a set of closed virtual cards, then reveal what was hidden behind the selected card. Each card can hide a reward, prompt, mystery outcome, task, name, or playful surprise. Because the result stays hidden until the flip happens, the tool creates a more interactive moment than a plain list or instant answer.</p>
+            <p>This format works especially well when the reveal should feel elegant rather than loud. A card reveal adds curiosity without needing bright game-show effects or casino-style visuals. That makes it useful for giveaways, classrooms, reward systems, hidden card choice games, quick group prompts, and fun decisions that benefit from a little suspense.</p>
+
+            <h2>Using Card Reveals for Rewards and Prompts</h2>
+            <p>Card-based reveals are great for rewards and prompts because they turn a simple outcome into a choice that feels deliberate. A teacher can hide discussion prompts, bonus points, or challenge questions behind cards. A creator can place different reward tiers behind each card. A group host can use cards for mystery tasks, extra turns, or quick team choices.</p>
+            <p>That is part of what makes a pick a card format feel different from a wheel or a direct picker. Instead of watching a selection happen automatically, the participant chooses a specific card and then waits for the flip. This makes the reveal feel more personal, even when the card order was shuffled in advance. For reward moments, that extra bit of suspense often makes the experience more memorable.</p>
+
+            <h2>Pick a Card for Games and Classrooms</h2>
+            <p>In games and classrooms, a card reveal tool can support a wide range of activities. Cards can hide team names, trivia prompts, mini-challenges, mystery rewards, reading tasks, or selection cues. The grid stays easy to understand, so players and students do not need instructions beyond “pick a card.” That makes it a good fit for warmups, review games, party rounds, and quick classroom interaction.</p>
+            <p>It also gives hosts flexibility. One round might use a hidden card choice for student selection, while another uses the same layout for surprise tasks or discussion starters. If you need a larger suspense-style reveal, try <a href="pick-a-door.html">Pick a Door</a>. If you need a rotating result instead of a flip, <a href="spin-the-wheel.html">Spin the Wheel</a> is a strong alternative.</p>
+
+            <h2>Why Hidden Card Choices Feel Engaging</h2>
+            <p>Hidden card choices feel engaging because they combine clarity with suspense. Everyone understands what a card is and what it means to reveal one, but the unknown result still creates anticipation. That makes the tool friendly for first-time users while keeping the interaction fun enough for streams, small events, games, and giveaways.</p>
+            <p>Another reason card reveals work well is pacing. A flip animation gives the result a short build-up without making people wait too long. That creates a polished middle ground between instant results and heavier game interfaces. For users who want a refined random card picker rather than a plain selector, the card format often feels elegant and easy to reuse.</p>
+
+            <h2>How Virtual Card Reveal Tools Work</h2>
+            <p>A virtual card reveal tool starts by taking your list of hidden outcomes and assigning one to each card. Once the cards are shuffled, the exact content stays hidden until a card is chosen. When someone clicks a closed card, the tool flips it and shows the stored result. If one-card mode is enabled, the remaining closed cards can be locked to keep the moment focused on a single reveal.</p>
+            <p>That structure makes the tool predictable in a good way. You know how many cards are in play, what kinds of results are possible, and what happens after each flip. If you prefer direct list-based selection instead, you can also use the <a href="random-name-picker.html">Random Name Picker</a> or <a href="random-number-generator.html">Random Number Generator</a>. Pick a card works best when the reveal itself should feel like part of the experience.</p>
+            <h2>Related Random Tools</h2>
+            <p>If you want a larger reveal moment, use <a href="pick-a-door.html">Pick a Door</a>. For a surprise-box style experience, try <a href="mystery-box-picker.html">Mystery Box Picker</a>. For direct picks without a reveal animation, use <a href="random-name-picker.html">Random Name Picker</a> or <a href="spin-the-wheel.html">Spin the Wheel</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--compact">
+        <div class="container">
+          <div class="tool-support-grid" data-reveal>
+            <article class="tool-support-card">
+              <span class="section-kicker">Guide</span>
+              <h2>Learn how to use this tool</h2>
+              <p>See how card reveals work for prompts, giveaways, classroom moments, and elegant hidden outcomes.</p>
+              <a class="button button-secondary" href="../guides/pick-a-card-guide.html">Read the guide</a>
+            </article>
+
+            <article class="tool-support-card">
+              <span class="section-kicker">Fair Randomness</span>
+              <h2>How results are generated</h2>
+              <p>Results are generated using built-in browser randomization functions.</p>
+              <p>Each action produces an independent and unbiased result.</p>
+              <a class="button button-secondary" href="/randomness/">Read the notice</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-panel" data-reveal>
+            <div>
+              <span class="section-kicker">Try Doors Instead</span>
+              <h2>Prefer doors instead of cards?</h2>
+              <p>Try our Pick a Door tool for a bigger suspense reveal experience.</p>
+            </div>
+            <a class="button button-primary" href="pick-a-door.html">Open Pick a Door</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="/">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+                <path d="M16 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1L16 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9L16 3z"></path>
+              </svg>
+            </span>
+            <span class="brand-copy">
+              <strong>PickWinner</strong>
+              <span>Tools</span>
+            </span>
+          </a>
+          <p class="footer-copy">Premium-light random pickers for fair giveaways, quick choices, and friendly reveal tools.</p>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/tools/">Tools</a>
+          <a href="/guides/">Guides</a>
+          <a href="/#about">About</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+          <a href="/terms-of-service.html">Terms of Service</a>
+          <a href="/disclaimer.html">Disclaimer</a>
+          <a href="/cookies.html">Cookies Policy</a>
+          <a href="/randomness/">Randomness Notice</a>
+        </nav>
+        <div class="footer-meta">
+          <p>&copy; <span data-year></span> PickWinner Tools. All rights reserved.</p>
+          <p class="site-footer__credit">by <a href="https://lukichev.biz/" rel="me noopener noreferrer">lukichev.biz</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

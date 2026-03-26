@@ -1,0 +1,9 @@
+**/.git
+**/.wrangler
+**/.DS_Store
+README.md
+.gitignore
+.assetsignore
+.htaccess
+Archive.zip
+wrangler.jsonc

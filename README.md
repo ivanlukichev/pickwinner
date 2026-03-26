@@ -1,178 +1,78 @@
 # PickWinner Tools
 
-PickWinner Tools is a lightweight collection of browser-based randomizers and quick decision tools.
+**PickWinner Tools** is a fast collection of lightweight randomizer tools for quick everyday decisions.
 
 Website:
 https://pickwinner.tools/
 
-Public GitHub repo:
-https://github.com/ivanlukichev/pickwinner
-
 ## What is PickWinner Tools?
 
-PickWinner Tools is built for fast everyday decisions:
+PickWinner Tools is built for simple cases where you need a random answer quickly:
 
-- choose a random name
 - flip a coin
 - roll dice
 - generate a random number
+- pick a random name
 - spin a wheel
 - split people into teams
-- run simple pick-a-card, pick-a-door, and mystery-box style choices
+- use quick card, door, and mystery-box style randomizers
 
-The goal is simple:
+No account.
+No setup.
+Just open a tool and get a result.
 
-open a tool, get a result, move on.
+## Why PickWinner Tools?
 
-## Why this project exists
-
-Many randomizer websites are overloaded with clutter, ads, extra steps, or slow UI.
+Many randomizer sites feel overloaded or slow.
 
 PickWinner Tools focuses on:
 
-- instant use
-- clean interfaces
+- fast interaction
+- clean UI
 - mobile-friendly pages
-- no account requirement
-- fast static delivery
+- lightweight browser-based tools
+- minimal friction
 
-## Core tools
+## Browser Extensions
 
-Current tool set includes:
+This public repository contains the browser extension packages for the PickWinner Tools Coin Flip experience.
 
-- Random Name Picker
-- Spin the Wheel
-- Dice Roller
-- Coin Flip
-- Random Number Generator
-- Random Team Generator
-- Pick a Card
-- Pick a Door
-- Mystery Box Picker
+### Supported browsers
 
-Tool pages live in [`tools/`](./tools).
-
-## Browser extensions
-
-This repository also includes browser extension builds for the Coin Flip tool.
-
-Supported packages:
-
-- Chrome: [`extension/chrome`](./extension/chrome)
-- Opera: [`extension/opera`](./extension/opera)
-- Firefox: [`extension/firefox`](./extension/firefox)
+- Chrome: [extension/chrome](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)
+- Opera: [extension/opera](https://github.com/ivanlukichev/pickwinner/tree/main/extension/opera)
+- Firefox: [extension/firefox](https://github.com/ivanlukichev/pickwinner/tree/main/extension/firefox)
 
 Current extension behavior:
 
 - opens from the browser toolbar
-- shows a compact Coin Flip popup
-- runs a simple 50/50 Heads or Tails result
-- keeps the UI local and lightweight
-- links users back to PickWinner Tools for more randomizers
+- shows a polished Coin Flip popup
+- flips a virtual coin with a quick animation
+- returns `Heads` or `Tails`
+- links back to PickWinner Tools for more random tools
 
-Extension privacy policy:
+Privacy policy:
 
-- [`extension/privacy-policy.md`](./extension/privacy-policy.md)
+- [extension/privacy-policy.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/privacy-policy.md)
 
-Store submission notes:
+Store notes:
 
-- [`extension/store/chrome-web-store.md`](./extension/store/chrome-web-store.md)
-- [`extension/store/opera-addons.md`](./extension/store/opera-addons.md)
-- [`extension/store/firefox-addons.md`](./extension/store/firefox-addons.md)
-- [`extension/store/submission-checklist.md`](./extension/store/submission-checklist.md)
-
-## Project structure
-
-```text
-.
-|-- css/
-|-- guides/
-|-- img/
-|-- js/
-|-- tools/
-|-- extension/
-|   |-- chrome/
-|   |-- opera/
-|   |-- firefox/
-|   |-- privacy-policy.md
-|   `-- store/
-|-- index.html
-|-- _headers
-|-- _redirects
-`-- wrangler.jsonc
-```
-
-## Tech overview
-
-- Plain HTML, CSS, and JavaScript
-- No framework
-- No build step
-- Static deploy setup for Cloudflare Pages / Workers Assets
-
-## Local preview
-
-Run a static server from the repository root:
-
-```bash
-python3 -m http.server 8080
-```
-
-Then open:
-
-```text
-http://localhost:8080
-```
-
-## Deployment
-
-### Cloudflare Pages
-
-Recommended settings:
-
-- Framework preset: `None`
-- Build command: leave empty
-- Build output directory: `/`
-- Root directory: `/`
-- Production branch: `main`
-
-If Cloudflare requires a build command, use:
-
-```bash
-exit 0
-```
-
-Cloudflare-specific behavior is defined in:
-
-- [`_headers`](./_headers)
-- [`_redirects`](./_redirects)
-
-### Cloudflare Workers Builds
-
-If the project is connected through Workers Builds instead of Pages, use:
-
-- Build command: `exit 0` or leave empty
-- Deploy command: `npx wrangler deploy`
-- Non-production deploy command: `npx wrangler versions upload`
-- Path: `/`
-
-Supporting files:
-
-- [`wrangler.jsonc`](./wrangler.jsonc)
-- [`.assetsignore`](./.assetsignore)
+- [extension/store/chrome-web-store.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/chrome-web-store.md)
+- [extension/store/opera-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/opera-addons.md)
+- [extension/store/firefox-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/firefox-addons.md)
+- [extension/store/submission-checklist.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/submission-checklist.md)
 
 ## Philosophy
 
-PickWinner Tools is built around small, focused utilities.
+PickWinner Tools is built around a simple idea:
 
-No sign-up walls.
-No unnecessary setup.
-No heavy app shell.
+open -> choose -> continue
 
-Just useful random tools that open fast and do one job well.
+The product is meant to feel light, fast, and useful.
 
 ## Author
 
-Created by Ivan Lukichev.
+Built by **Ivan Lukichev**
 
-More projects:
+More:
 https://lukichev.biz/

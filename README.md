@@ -40,6 +40,7 @@ This public repository contains the browser extension packages for the PickWinne
 ### Supported browsers
 
 - Chrome: [extension/chrome](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)
+- Edge: [extension/edge](https://github.com/ivanlukichev/pickwinner/tree/main/extension/edge)
 - Opera: [extension/opera](https://github.com/ivanlukichev/pickwinner/tree/main/extension/opera)
 - Firefox: [extension/firefox](https://github.com/ivanlukichev/pickwinner/tree/main/extension/firefox)
 
@@ -58,6 +59,7 @@ Privacy policy:
 Store notes:
 
 - [extension/store/chrome-web-store.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/chrome-web-store.md)
+- [extension/store/edge-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/edge-addons.md)
 - [extension/store/opera-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/opera-addons.md)
 - [extension/store/firefox-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/firefox-addons.md)
 - [extension/store/submission-checklist.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/submission-checklist.md)

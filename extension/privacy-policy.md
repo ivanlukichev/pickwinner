@@ -2,7 +2,7 @@
 
 Effective date: March 26, 2026
 
-This privacy policy applies to the PickWinner Tools browser extension builds in this folder, including the Chrome, Opera, and Firefox versions.
+This privacy policy applies to the PickWinner Tools browser extension builds in this folder, including the Chrome, Edge, Opera, and Firefox versions.
 
 ## What the extension does
 

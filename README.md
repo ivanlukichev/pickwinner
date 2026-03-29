@@ -1,80 +1,51 @@
-# PickWinner Tools
+# PickWinner Tools Coin Flip Extension
 
-**PickWinner Tools** is a fast collection of lightweight randomizer tools for quick everyday decisions.
+Flip a virtual coin directly from your browser toolbar and get a clean Heads or Tails result in seconds.
 
-Website:
-https://pickwinner.tools/
+The PickWinner Tools Coin Flip extension is designed to stay lightweight, fast, and easy to use.
 
-## What is PickWinner Tools?
+## Install in your browser
 
-PickWinner Tools is built for simple cases where you need a random answer quickly:
+<!-- Replace the remaining browser statuses and install URLs below when new store pages go live. -->
 
-- flip a coin
-- roll dice
-- generate a random number
-- pick a random name
-- spin a wheel
-- split people into teams
-- use quick card, door, and mystery-box style randomizers
+<table>
+  <tr>
+    <td><strong>Chrome</strong></td>
+    <td><a href="https://chromewebstore.google.com/detail/pickwinner-tools-coin-fli/haoceolgfahonhmneiphppjgkikokgnb">Install for Chrome</a></td>
+  </tr>
+  <tr>
+    <td><strong>Firefox</strong></td>
+    <td>Coming Soon</td>
+  </tr>
+  <tr>
+    <td><strong>Edge</strong></td>
+    <td>Coming Soon</td>
+  </tr>
+  <tr>
+    <td><strong>Opera</strong></td>
+    <td>Coming Soon</td>
+  </tr>
+</table>
 
-No account.
-No setup.
-Just open a tool and get a result.
+## Features
 
-## Why PickWinner Tools?
+- Open Coin Flip instantly from the browser toolbar
+- Run a clean virtual coin toss animation
+- Get a fast 50/50 Heads or Tails result
+- Use a minimal popup without unnecessary permissions
+- Jump to PickWinner Tools for more random tools
 
-Many randomizer sites feel overloaded or slow.
+## Source packages
 
-PickWinner Tools focuses on:
+- [Chrome source](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)
+- [Firefox source](https://github.com/ivanlukichev/pickwinner/tree/main/extension/firefox)
+- [Edge source](https://github.com/ivanlukichev/pickwinner/tree/main/extension/edge)
+- [Opera source](https://github.com/ivanlukichev/pickwinner/tree/main/extension/opera)
 
-- fast interaction
-- clean UI
-- mobile-friendly pages
-- lightweight browser-based tools
-- minimal friction
-
-## Browser Extensions
-
-This public repository contains the browser extension packages for the PickWinner Tools Coin Flip experience.
-
-### Supported browsers
-
-- Chrome: [extension/chrome](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)
-- Edge: [extension/edge](https://github.com/ivanlukichev/pickwinner/tree/main/extension/edge)
-- Opera: [extension/opera](https://github.com/ivanlukichev/pickwinner/tree/main/extension/opera)
-- Firefox: [extension/firefox](https://github.com/ivanlukichev/pickwinner/tree/main/extension/firefox)
-
-Current extension behavior:
-
-- opens from the browser toolbar
-- shows a polished Coin Flip popup
-- flips a virtual coin with a quick animation
-- returns `Heads` or `Tails`
-- links back to PickWinner Tools for more random tools
-
-Privacy policy:
+## Privacy policy
 
 - [extension/privacy-policy.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/privacy-policy.md)
 
-Store notes:
+## More random tools
 
-- [extension/store/chrome-web-store.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/chrome-web-store.md)
-- [extension/store/edge-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/edge-addons.md)
-- [extension/store/opera-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/opera-addons.md)
-- [extension/store/firefox-addons.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/firefox-addons.md)
-- [extension/store/submission-checklist.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/store/submission-checklist.md)
-
-## Philosophy
-
-PickWinner Tools is built around a simple idea:
-
-open -> choose -> continue
-
-The product is meant to feel light, fast, and useful.
-
-## Author
-
-Built by **Ivan Lukichev**
-
-More:
-https://lukichev.biz/
+[More random tools on PickWinner Tools](https://pickwinner.tools/)

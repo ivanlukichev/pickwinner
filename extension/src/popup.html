@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="popup" data-popup>
+    <header class="popup__header">
+      <span class="popup__eyebrow">PickWinner Tools</span>
+      <h1>Coin Flip</h1>
+      <p>Flip a clean virtual coin for a fast 50/50 decision.</p>
+    </header>
+
+    <section class="coin-panel" aria-label="Coin flip tool">
+      <div class="coin-stage" data-coin-stage data-side="heads">
+        <div class="coin-glow" aria-hidden="true"></div>
+        <button class="coin" type="button" data-flip-button aria-label="Flip Coin">
+          <span class="coin__shadow" aria-hidden="true"></span>
+          <span class="coin__inner" data-coin-inner>
+            <span class="coin__face coin__face--heads" aria-hidden="true">
+              <span class="coin__ring"></span>
+              <span class="coin__symbol">H</span>
+              <span class="coin__label">Heads</span>
+            </span>
+            <span class="coin__face coin__face--tails" aria-hidden="true">
+              <span class="coin__ring"></span>
+              <span class="coin__symbol">T</span>
+              <span class="coin__label">Tails</span>
+            </span>
+          </span>
+        </button>
+      </div>
+
+      <div class="result" data-result-panel data-state="idle" aria-live="polite">
+        <span class="result__label">Result</span>
+        <strong class="result__value" data-result-text>Ready to flip</strong>
+        <p class="result__meta" data-result-meta>Flip the coin to decide.</p>
+      </div>
+
+      <button class="primary-button" type="button" data-action-button>Flip Coin</button>
+    </section>
+
+    <footer class="popup__footer">
+      <a
+        class="footer-link"
+        href="https://pickwinner.tools/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <span>More random tools on PickWinner Tools</span>
+        <span class="footer-link__arrow" aria-hidden="true">↗</span>
+      </a>
+    </footer>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

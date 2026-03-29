@@ -83,15 +83,34 @@ The broader PickWinner Tools product includes:
 
 <!-- Replace the remaining browser statuses and install URLs below when new store pages go live. -->
 
-| Browser | Status |
-|---|---|
-| Chrome | [Install for Chrome](https://chromewebstore.google.com/detail/pickwinner-tools-coin-fli/haoceolgfahonhmneiphppjgkikokgnb) |
-| Firefox | Coming Soon |
-| Edge | Coming Soon |
-| Opera | Coming Soon |
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <strong>Chrome</strong><br><br>
+      <a href="https://chromewebstore.google.com/detail/pickwinner-tools-coin-fli/haoceolgfahonhmneiphppjgkikokgnb">Install for Chrome</a><br>
+      <sub>Available now</sub>
+    </td>
+    <td align="center" width="25%">
+      <strong>Firefox</strong><br><br>
+      Coming Soon<br>
+      <sub>Extension package is readying for release</sub>
+    </td>
+    <td align="center" width="25%">
+      <strong>Edge</strong><br><br>
+      Coming Soon<br>
+      <sub>Planned browser package</sub>
+    </td>
+    <td align="center" width="25%">
+      <strong>Opera</strong><br><br>
+      Coming Soon<br>
+      <sub>Planned browser package</sub>
+    </td>
+  </tr>
+</table>
 
 Source packages:
 
+- Shared popup source: [extension/src](https://github.com/ivanlukichev/pickwinner/tree/main/extension/src)
 - Chrome source: [extension/chrome](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)
 - Firefox source: [extension/firefox](https://github.com/ivanlukichev/pickwinner/tree/main/extension/firefox)
 - Edge source: [extension/edge](https://github.com/ivanlukichev/pickwinner/tree/main/extension/edge)
@@ -100,6 +119,15 @@ Source packages:
 Privacy policy:
 
 - [extension/privacy-policy.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/privacy-policy.md)
+
+Repo structure:
+
+- `extension/src/` — shared popup source and base assets
+- `extension/chrome/` — Chrome package
+- `extension/firefox/` — Firefox package
+- `extension/edge/` — Edge package
+- `extension/opera/` — Opera package
+- `extension/store/` — listing notes and submission checklist
 
 ---
 

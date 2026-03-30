@@ -92,8 +92,8 @@ The broader PickWinner Tools product includes:
     </td>
     <td align="center" width="25%">
       <strong>Firefox</strong><br><br>
-      Coming Soon<br>
-      <sub>Extension package is readying for release</sub>
+      <a href="https://addons.mozilla.org/addon/pickwinner-tools-coin-flip/">Install for Firefox</a><br>
+      <sub>Available now</sub>
     </td>
     <td align="center" width="25%">
       <strong>Edge</strong><br><br>
@@ -168,7 +168,7 @@ If you like the project:
 
 - ⭐ Star the repo
 - 🌍 Use the tools: https://pickwinner.tools/
-- 🧩 Install the Chrome extension
+- 🧩 Install the browser extension
 
 ---
 

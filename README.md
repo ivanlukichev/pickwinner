@@ -97,8 +97,8 @@ The broader PickWinner Tools product includes:
     </td>
     <td align="center" width="25%">
       <strong>Edge</strong><br><br>
-      Coming Soon<br>
-      <sub>Planned browser package</sub>
+      <a href="https://microsoftedge.microsoft.com/addons/detail/pickwinner-tools-coin-fli/jkpbnijgddlpjkkjjjdfcemfcgblgjnk">Install for Edge</a><br>
+      <sub>Available now</sub>
     </td>
     <td align="center" width="25%">
       <strong>Opera</strong><br><br>

@@ -22,5 +22,6 @@ Fast coin flip popup for quick Heads or Tails decisions.
 ## Submission notes
 
 - use the Edge package from [`../edge`](../edge)
+- live listing: https://microsoftedge.microsoft.com/addons/detail/pickwinner-tools-coin-fli/jkpbnijgddlpjkkjjjdfcemfcgblgjnk
 - verify popup screenshots before upload
 - confirm the homepage link opens correctly in a new tab

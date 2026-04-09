@@ -9,6 +9,10 @@
   ·
   <a href="https://github.com/ivanlukichev/pickwinner"><strong>GitHub Repo</strong></a>
   ·
+  <a href="https://chromewebstore.google.com/detail/pickwinner-tools-coin-fli/haoceolgfahonhmneiphppjgkikokgnb"><strong>Chrome Extension</strong></a>
+  ·
+  <a href="https://addons.mozilla.org/addon/pickwinner-tools-coin-flip/"><strong>Firefox Extension</strong></a>
+  ·
   <a href="https://microsoftedge.microsoft.com/addons/detail/pickwinner-tools-coin-fli/jkpbnijgddlpjkkjjjdfcemfcgblgjnk"><strong>Edge Extension</strong></a>
 </p>
 
@@ -56,6 +60,15 @@ Excluded on purpose:
 ## Browser Extensions
 
 The repository also contains extension packages for the coin flip tool:
+
+### Install Links
+
+| Browser | Status | Install |
+| --- | --- | --- |
+| Chrome | Live | [Install from Chrome Web Store](https://chromewebstore.google.com/detail/pickwinner-tools-coin-fli/haoceolgfahonhmneiphppjgkikokgnb) |
+| Firefox | Live | [Install from Firefox Add-ons](https://addons.mozilla.org/addon/pickwinner-tools-coin-flip/) |
+| Edge | Live | [Install from Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/pickwinner-tools-coin-fli/jkpbnijgddlpjkkjjjdfcemfcgblgjnk) |
+| Opera | Planned | Coming soon |
 
 - Shared source: [extension/src](https://github.com/ivanlukichev/pickwinner/tree/main/extension/src)
 - Chrome package: [extension/chrome](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)

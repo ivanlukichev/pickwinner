@@ -22,7 +22,24 @@
 
 PickWinner Tools is a utility product for moments when a fast neutral answer is more useful than a complex app. It bundles coin flips, dice, random numbers, name pickers, team generators, wheels, and similar micro-tools into one lightweight browser experience.
 
-This public repository is meant to explain the product at a glance, link the live tools, and expose the small browser extension layer that grows out of the same idea.
+This public repository is meant to explain the product at a glance, link the live tools, and expose a curated source snapshot from the active private development repo.
+
+## Included Source Snapshot
+
+This repo now contains real project files, not just a showcase page:
+
+- `deploy/` with the production website pages, styles, scripts, redirects, and SEO files
+- `scripts/` with local preview and deploy validation helpers
+- `wrangler.jsonc` for Cloudflare deploy routing
+- `extension/` with browser-extension packages and related docs
+- `docs/` with project audit and public-repo notes
+
+Excluded on purpose:
+
+- `.env*`
+- `.wrangler/`
+- `backups/`
+- local caches and temp files
 
 ## Included Tools
 
@@ -60,6 +77,7 @@ The repository also contains extension packages for the coin flip tool:
 - Audience: casual users, streamers, teachers, teams, decision helpers
 - Stack: static web tools plus lightweight browser extensions
 - Product goal: solve quick choice problems with minimal friction
+- Repo role: public product page plus safe source snapshot
 
 ## More Projects
 

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spin the Wheel - Random Wheel Picker | PickWinner Tools</title>
+  <meta name="description" content="Spin the wheel online, add names or prizes, and pick a fair random winner in seconds.">
+  <link rel="canonical" href="https://pickwinner.tools/tools/spin-the-wheel.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Spin the Wheel - Random Wheel Picker | PickWinner Tools">
+  <meta property="og:description" content="Spin the wheel online, add names or prizes, and pick a fair random winner in seconds.">
+  <meta property="og:image" content="https://pickwinner.tools/img/og-preview.svg">
+  <meta property="og:url" content="https://pickwinner.tools/tools/spin-the-wheel.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Spin the Wheel - Random Wheel Picker | PickWinner Tools">
+  <meta name="twitter:description" content="Spin the wheel online, add names or prizes, and pick a fair random winner in seconds.">
+  <meta name="twitter:image" content="https://pickwinner.tools/img/og-preview.svg">
+  <meta name="theme-color" content="#F8FAFC">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Spin the Wheel",
+          "applicationCategory": "UtilityApplication",
+          "operatingSystem": "Web Browser",
+          "isAccessibleForFree": true,
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://pickwinner.tools/tools/spin-the-wheel.html",
+          "description": "Spin the wheel online, add names or prizes, and pick a fair random winner in seconds."
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is this random wheel fair?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The winning slice is selected before the animation starts, then the wheel animates to that already selected result."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I remove winning sections after each spin?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can remove winners after each spin so used sections no longer participate in later rounds."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I share my wheel setup?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The share link stores the current items and settings in the page URL."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it work on mobile?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The wheel and its settings are designed to work on desktop, tablet, and mobile screens."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pickwinner.tools/" },
+            { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://pickwinner.tools/tools/" },
+            { "@type": "ListItem", "position": 3, "name": "Spin the Wheel", "item": "https://pickwinner.tools/tools/spin-the-wheel.html" }
+          ]
+        }
+      ]
+    }
+  </script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/spin-wheel.css">
+  <script defer src="../js/main.js"></script>
+  <script defer src="../js/spin-wheel.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="PickWinner Tools home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M16 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1L16 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9L16 3z"></path></svg>
+          </span>
+          <span class="brand-copy"><strong>PickWinner</strong><span>Tools</span></span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-nav>
+          <a href="/">Home</a>
+          <a href="/tools/" aria-current="page">Tools</a>
+          <a href="/guides/">Guides</a>
+          <a href="/#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="spin-page">
+      <section class="section spin-tool-header">
+        <div class="container">
+          <div class="spin-tool-header__inner" data-reveal>
+            <div>
+              <h1>Spin the Wheel - Random Wheel Picker</h1>
+              <p>Spin the wheel online, reveal a fair random winner, and open settings only when you need them.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section spin-interface-section">
+        <div class="container">
+          <div class="spin-tool-shell">
+            <aside class="spin-card spin-actions-card" data-reveal>
+              <div class="spin-card__header spin-card__header--tight">
+                <div>
+                  <span class="spin-eyebrow">Actions</span>
+                  <h2>Run the wheel</h2>
+                </div>
+                <p>Launch a spin, shuffle items, or open the full wheel setup.</p>
+              </div>
+
+              <div class="spin-actions-stack">
+                <button class="button button-primary spin-button-main" type="button" data-spin-button>Spin</button>
+                <button class="button button-secondary" type="button" data-shuffle-button>Shuffle Items</button>
+                <button class="button button-ghost" type="button" data-open-settings aria-haspopup="dialog" aria-controls="spin-settings-modal">Wheel Settings</button>
+              </div>
+
+              <div class="spin-stats-stack">
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Remaining spins</span>
+                  <strong data-remaining-spins>0</strong>
+                </div>
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Visible sections</span>
+                  <strong data-visible-count>0</strong>
+                </div>
+                <div class="spin-pill">
+                  <span class="spin-pill__label">Eligible to win</span>
+                  <strong data-eligible-count>0</strong>
+                </div>
+              </div>
+
+              <div class="spin-message" data-message role="status" aria-live="polite"></div>
+            </aside>
+
+            <section class="spin-card spin-wheel-card" data-reveal>
+              <div class="spin-card__header spin-card__header--tight spin-card__header--centered">
+                <div>
+                  <span class="spin-eyebrow">Live Wheel</span>
+                  <h2>Ready to spin</h2>
+                </div>
+              </div>
+
+              <div class="spin-wheel-stage" data-wheel-stage role="img" aria-label="Spin the wheel with custom prizes or names">
+                <div class="spin-pointer" aria-hidden="true"></div>
+                <canvas id="spin-wheel-canvas" data-wheel-canvas width="720" height="720">
+                  Your browser does not support the canvas element needed for this wheel tool.
+                </canvas>
+              </div>
+
+              <div class="spin-result-panel" data-result-panel aria-live="polite">
+                <span class="spin-result-panel__label">Winner</span>
+                <strong data-result-winner>Ready to spin</strong>
+                <p data-result-meta>Spin the wheel to reveal a fair result.</p>
+              </div>
+            </section>
+
+            <aside class="spin-card spin-results-card" data-reveal>
+              <div class="spin-history">
+                <div class="spin-history__header">
+                  <div>
+                    <span class="spin-eyebrow">Results</span>
+                    <h3>Results History</h3>
+                    <p>Track each winner in the current session.</p>
+                  </div>
+                </div>
+
+                <p class="spin-history__empty" data-history-empty>No results yet</p>
+                <p class="spin-history__empty spin-history__hint" data-history-hint>Spin the wheel to reveal a winner.</p>
+                <ol class="spin-history__list" data-history-list></ol>
+                <div class="spin-history__actions">
+                  <button class="button button-ghost" type="button" data-clear-history-button>Clear results</button>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <div class="spin-settings-overlay" data-settings-backdrop hidden></div>
+      <aside class="spin-settings-modal" id="spin-settings-modal" data-settings-modal hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="spin-settings-title">
+        <div class="spin-settings-modal__panel" tabindex="-1">
+          <div class="spin-settings-modal__header">
+            <div>
+              <span class="spin-eyebrow">Wheel Settings</span>
+              <h2 id="spin-settings-title">Customize your wheel</h2>
+              <p>Adjust sections, items, repeat rules, limits, and share controls without leaving the wheel.</p>
+            </div>
+            <button class="spin-settings-modal__close" type="button" data-close-settings aria-label="Close settings">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="spin-settings-modal__body">
+            <div class="spin-settings-groups">
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Wheel Setup</h3>
+                  <p>Choose the number of sections, edit labels, or paste a list to build the wheel fast.</p>
+                </div>
+
+                <div class="spin-settings-subgroup">
+                  <div class="spin-settings-subgroup__header">
+                    <h4>Section count</h4>
+                    <p>Pick how many slices the wheel should display.</p>
+                  </div>
+
+                  <label class="spin-field">
+                    <span class="spin-field__label">Number of sections</span>
+                    <select id="section-count" data-section-count aria-label="Number of sections"></select>
+                  </label>
+                </div>
+
+                <div class="spin-settings-subgroup">
+                  <div class="spin-settings-subgroup__header">
+                    <h4>Wheel items</h4>
+                    <p>Edit each prize label or import a full list in one step.</p>
+                  </div>
+
+                  <div class="spin-item-list" data-item-list></div>
+
+                  <label class="spin-field">
+                    <span class="spin-field__label">Quick import</span>
+                    <textarea id="item-import" data-item-import rows="5" placeholder="Paste one item per line"></textarea>
+                  </label>
+
+                  <div class="spin-inline-actions">
+                    <button class="button button-secondary" type="button" data-import-items>Apply list</button>
+                  </div>
+                </div>
+              </section>
+
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Spin Rules</h3>
+                  <p>Set how many spins are available and decide whether the same section can win again.</p>
+                </div>
+
+                <div class="spin-field-grid">
+                  <label class="spin-field">
+                    <span class="spin-field__label">Number of spins</span>
+                    <input id="spin-total" data-spin-total type="number" min="1" max="100" inputmode="numeric">
+                    <span class="spin-field__hint" data-spin-total-hint aria-live="polite"></span>
+                  </label>
+
+                  <div class="spin-stat-card">
+                    <span class="spin-stat-card__label">Configured spins</span>
+                    <strong data-settings-total-spins>0</strong>
+                  </div>
+                </div>
+
+                <label class="spin-toggle">
+                  <span>
+                    <strong>Allow repeat winners</strong>
+                    <small>Let the same item win again if your other rules allow it.</small>
+                  </span>
+                  <input id="allow-repeats" data-allow-repeats type="checkbox">
+                </label>
+
+                <label class="spin-toggle">
+                  <span>
+                    <strong>Unlimited wins per item</strong>
+                    <small>Turn this off to cap how many times one visible item can win.</small>
+                  </span>
+                  <input id="unlimited-wins" data-unlimited-wins type="checkbox">
+                </label>
+
+                <label class="spin-field">
+                  <span class="spin-field__label">Max wins per item</span>
+                  <input id="max-wins" data-max-wins type="number" min="1" max="100" inputmode="numeric">
+                </label>
+
+                <label class="spin-toggle">
+                  <span>
+                    <strong>Remove winning section after spin</strong>
+                    <small>Winning slices disappear from the wheel until you reset results.</small>
+                  </span>
+                  <input id="remove-after-win" data-remove-after-win type="checkbox">
+                </label>
+              </section>
+
+              <section class="spin-settings-group">
+                <div class="spin-panel-heading">
+                  <h3>Actions</h3>
+                  <p>Share the current setup or reset the tool when you want a clean slate.</p>
+                </div>
+
+                <div class="spin-action-grid spin-action-grid--settings">
+                  <button class="button button-secondary" type="button" data-reset-results-button>Reset Results</button>
+                  <button class="button button-secondary" type="button" data-reset-tool-button>Reset Tool</button>
+                  <button class="button button-secondary" type="button" data-share-button>Copy Share Link</button>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="spin-settings-modal__footer">
+            <button class="button button-secondary" type="button" data-close-settings>Cancel</button>
+            <button class="button button-primary" type="button" data-close-settings>Done</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="section">
+        <div class="container">
+          <div class="seo-panel" data-reveal>
+            <span class="section-kicker">About This Tool</span>
+            <p><a href="../guides/how-to-use-a-wheel-picker.html"><strong>Read the full Spin the Wheel guide</strong></a> for giveaway, classroom, and live activity ideas before you start spinning.</p>
+            <h2>How to use Spin the Wheel for giveaways, classrooms, and quick picks</h2>
+            <p>This spin the wheel tool is built for quick, fair picks that work directly in the browser. Add names, prizes, prompts, or choices, then let the wheel reveal a winner with a smooth animation that reflects an honest client-side random selection.</p>
+            <p>It works well for giveaway picks, classroom activities, party games, light team exercises, and fast decision-making moments where you want something more visual than a plain random list. Because the setup lives on the page, it stays simple to share, reset, and reuse across devices.</p>
+            <p>Need practical ideas before you start? Read <a href="../guides/how-to-use-a-wheel-picker.html">How to Use a Spin the Wheel Picker</a> for giveaway, classroom, and decision-making examples.</p>
+            <h2>Related Random Tools</h2>
+            <p>Need a different format? Try the <a href="random-name-picker.html">Random Name Picker</a> for list draws, the <a href="random-number-generator.html">Random Number Generator</a> for number-based picks, or reveal tools like <a href="pick-a-door.html">Pick a Door</a> and <a href="pick-a-card.html">Pick a Card</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--compact">
+        <div class="container">
+          <div class="faq-grid" data-reveal>
+            <article class="faq-card">
+              <span class="section-kicker">FAQ</span>
+              <h2>Spin the Wheel FAQ</h2>
+              <div class="faq-stack">
+                <div class="faq-item">
+                  <h3>Is this random wheel fair?</h3>
+                  <p>Yes. The result is selected before the spin animation starts, so the animation is only a visual reveal of that fair outcome.</p>
+                </div>
+                <div class="faq-item">
+                  <h3>Can I remove winning sections after each spin?</h3>
+                  <p>Yes. You can remove winners or cap repeat wins depending on how you want the wheel to behave.</p>
+                </div>
+                <div class="faq-item">
+                  <h3>Can I share my wheel setup?</h3>
+                  <p>Yes. The share link keeps your current items and settings in a reusable URL.</p>
+                </div>
+                <div class="faq-item">
+                  <h3>Does it work on mobile?</h3>
+                  <p>Yes. The wheel interface and settings are built to work well on phones, tablets, and desktops.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="tool-support-card">
+              <span class="section-kicker">Guide</span>
+              <h2>Learn how to use this tool</h2>
+              <p>See practical examples for giveaways, classrooms, party games, and quick decisions before running your next wheel.</p>
+              <a class="button button-secondary" href="../guides/how-to-use-a-wheel-picker.html">Read the guide</a>
+            </article>
+
+            <article class="tool-support-card">
+              <span class="section-kicker">Fair Randomness</span>
+              <h2>How results are generated</h2>
+              <p>Results are generated using built-in browser randomization functions.</p>
+              <p>Each action produces an independent and unbiased result.</p>
+              <a class="button button-secondary" href="/randomness/">Read the notice</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <span class="section-kicker">More Tools</span>
+            <h2>Explore other random pickers</h2>
+            <p>Use other tools for names, numbers, team generation, and interactive reveal formats.</p>
+          </div>
+
+          <div class="more-tools-grid">
+            <article class="more-tools-card" data-reveal>
+              <h3>Random Name Picker</h3>
+              <p>Paste names, remove winners, and pick fairly for giveaways or classroom turns.</p>
+              <a class="button button-ghost" href="random-name-picker.html">Open Tool</a>
+            </article>
+            <article class="more-tools-card" data-reveal>
+              <h3>Random Number Generator</h3>
+              <p>Generate a clean random number inside a custom range for fast picks and draws.</p>
+              <a class="button button-ghost" href="random-number-generator.html">Open Tool</a>
+            </article>
+            <article class="more-tools-card" data-reveal>
+              <h3>Pick a Door</h3>
+              <p>Reveal hidden outcomes behind doors for games, prizes, and suspenseful moments.</p>
+              <a class="button button-ghost" href="pick-a-door.html">Open Tool</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="/">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M16 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1L16 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9L16 3z"></path></svg>
+            </span>
+            <span class="brand-copy"><strong>PickWinner</strong><span>Tools</span></span>
+          </a>
+          <p class="footer-copy">Premium-light tools for random picks, fair reveals, and friendly decisions.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/tools/">Tools</a>
+          <a href="/guides/">Guides</a>
+          <a href="/#about">About</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+          <a href="/terms-of-service.html">Terms of Service</a>
+          <a href="/disclaimer.html">Disclaimer</a>
+          <a href="/cookies.html">Cookies Policy</a>
+          <a href="/randomness/">Randomness Notice</a>
+        </nav>        <div class="footer-meta">
+          <p>&copy; <span data-year></span> PickWinner Tools. All rights reserved.</p>
+          <p class="site-footer__credit">by <a href="https://lukichev.biz/" rel="me noopener noreferrer">lukichev.biz</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

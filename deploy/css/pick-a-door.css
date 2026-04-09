@@ -1,0 +1,215 @@
+.door-main-card {
+  padding: clamp(1rem, 2.6vw, 1.45rem);
+  background:
+    radial-gradient(circle at top right, rgba(219, 234, 254, 0.5), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(254, 243, 199, 0.42), transparent 28%),
+    rgba(255, 255, 255, 0.96);
+}
+
+.door-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 1rem;
+}
+
+.door-card {
+  display: block;
+  width: 100%;
+  position: relative;
+  min-height: 13rem;
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  background: transparent;
+  cursor: pointer;
+  perspective: 1200px;
+}
+
+.door-card:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.door-card__prize {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 0.55rem;
+  padding: 1rem;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top right, rgba(254, 243, 199, 0.58), transparent 30%),
+    rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(226, 232, 240, 0.96);
+  box-shadow: var(--shadow-sm);
+}
+
+.door-card__panel {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform-origin: left center;
+  transition: transform 620ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 620ms ease;
+}
+
+.door-card.is-open .door-card__panel {
+  transform: perspective(1200px) rotateY(-112deg);
+}
+
+.door-card.is-open.is-no-animation .door-card__panel,
+.door-card.is-no-animation .door-card__panel {
+  transition: none;
+}
+
+.door-card__face {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 0.55rem;
+  padding: 1rem;
+  border-radius: 24px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.door-card__face--front {
+  background:
+    linear-gradient(180deg, rgba(191, 219, 254, 0.82), rgba(96, 165, 250, 0.92)),
+    rgba(37, 99, 235, 0.9);
+  border: 1px solid rgba(147, 197, 253, 0.92);
+  box-shadow:
+    0 22px 38px rgba(37, 99, 235, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.36);
+  color: #eff6ff;
+}
+
+.door-card__face--front::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 14%;
+  right: 14%;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.door-card__face--front::after {
+  content: "";
+  position: absolute;
+  right: 18%;
+  top: 50%;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 999px;
+  background: rgba(253, 224, 71, 0.95);
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.22);
+}
+
+.door-card__emoji {
+  font-size: 2rem;
+}
+
+.door-card__title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.door-card__hint {
+  font-size: 0.9rem;
+  color: rgba(239, 246, 255, 0.92);
+}
+
+.door-card__face--back {
+  display: none;
+}
+
+.door-card__back-emoji {
+  font-size: 1.8rem;
+}
+
+.door-card__back-value {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  word-break: break-word;
+}
+
+.door-card[data-state="locked"] {
+  opacity: 0.62;
+}
+
+.door-card[data-state="locked"] .door-card__face--front {
+  background:
+    linear-gradient(180deg, rgba(203, 213, 225, 0.88), rgba(148, 163, 184, 0.96)),
+    rgba(148, 163, 184, 0.92);
+}
+
+.door-card[data-state="closed"]:hover .door-card__panel,
+.door-card[data-state="closed"]:focus-visible .door-card__panel {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 36px rgba(37, 99, 235, 0.18);
+}
+
+.door-card[data-state="closed"].is-open:hover .door-card__panel,
+.door-card[data-state="closed"].is-open:focus-visible .door-card__panel {
+  transform: perspective(1200px) rotateY(-112deg);
+}
+
+.door-result-panel {
+  margin-bottom: 1rem;
+}
+
+.door-result-panel strong {
+  margin-bottom: 0.15rem;
+}
+
+.door-result-panel p {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.door-setup-actions {
+  margin-top: 1rem;
+}
+
+.door-setup-actions .button {
+  width: 100%;
+}
+
+.door-seo h2 {
+  margin: 2rem 0 0.7rem;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+
+.door-seo h2:first-of-type {
+  margin-top: 1.1rem;
+}
+
+@media (max-width: 920px) {
+  .door-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .door-grid {
+    grid-template-columns: 1fr;
+  }
+}

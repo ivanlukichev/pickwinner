@@ -1,0 +1,15 @@
+.DS_Store
+.wrangler/
+.env
+.env.*
+!.env.example
+
+node_modules/
+logs/
+tmp/
+cache/
+backups/
+
+*.log
+*.zip
+*.tar

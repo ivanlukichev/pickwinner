@@ -1,175 +1,82 @@
-# 🎯 PickWinner Tools
+<h1 align="center">PickWinner Tools</h1>
 
-**PickWinner Tools** is a fast, lightweight collection of randomizers and quick decision tools built for everyday use.
+<p align="center">
+  A fast collection of randomizers and quick-decision tools built for zero-friction use in the browser and in lightweight extensions.
+</p>
 
-👉 https://pickwinner.tools/
+<p align="center">
+  <a href="https://pickwinner.tools/"><strong>Open Website</strong></a>
+  ·
+  <a href="https://github.com/ivanlukichev/pickwinner"><strong>GitHub Repo</strong></a>
+  ·
+  <a href="https://microsoftedge.microsoft.com/addons/detail/pickwinner-tools-coin-fli/jkpbnijgddlpjkkjjjdfcemfcgblgjnk"><strong>Edge Extension</strong></a>
+</p>
 
----
+<p align="center">
+  <a href="https://pickwinner.tools/">
+    <img src="assets/preview.svg" alt="PickWinner Tools preview" width="900">
+  </a>
+</p>
 
-## 🚀 What is PickWinner Tools?
+## What It Is
 
-PickWinner Tools is a browser-based utility product designed for moments when you need a quick neutral result:
+PickWinner Tools is a utility product for moments when a fast neutral answer is more useful than a complex app. It bundles coin flips, dice, random numbers, name pickers, team generators, wheels, and similar micro-tools into one lightweight browser experience.
 
-- flip a coin
-- roll dice
-- generate a random number
-- pick a random name
-- spin a wheel
-- split people into teams
-- use simple card, door, and mystery-box style randomizers
+This public repository is meant to explain the product at a glance, link the live tools, and expose the small browser extension layer that grows out of the same idea.
 
-No accounts. No setup. Just open a tool and get the result.
+## Included Tools
 
----
+- coin flip
+- dice roller
+- random number generator
+- random name picker
+- team generator
+- spin the wheel
+- pick a card
+- pick a door
+- mystery box picker
 
-## 🧠 Why PickWinner Tools?
+## Browser Extensions
 
-Most randomizer websites are overloaded.
+The repository also contains extension packages for the coin flip tool:
 
-PickWinner Tools focuses on:
+- Shared source: [extension/src](https://github.com/ivanlukichev/pickwinner/tree/main/extension/src)
+- Chrome package: [extension/chrome](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)
+- Firefox package: [extension/firefox](https://github.com/ivanlukichev/pickwinner/tree/main/extension/firefox)
+- Edge package: [extension/edge](https://github.com/ivanlukichev/pickwinner/tree/main/extension/edge)
+- Opera package: [extension/opera](https://github.com/ivanlukichev/pickwinner/tree/main/extension/opera)
+- Privacy policy: [extension/privacy-policy.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/privacy-policy.md)
 
-- ⚡ fast interaction
-- 🎯 clean UI
-- 📱 mobile-friendly use
-- 🧩 focused single-purpose tools
-- 🚫 no account friction
+## Why It Feels Different
 
-It is designed to feel lightweight, useful, and immediate.
+- Each tool is focused on one small job and opens fast.
+- The product feels useful without requiring accounts or setup.
+- Website and extension fit the same simple decision-making use case.
+- The public repo doubles as a clean product landing page.
 
----
+## Project Snapshot
 
-## 🌐 Product Ecosystem
+- Category: randomizers and utility tools
+- Audience: casual users, streamers, teachers, teams, decision helpers
+- Stack: static web tools plus lightweight browser extensions
+- Product goal: solve quick choice problems with minimal friction
 
-PickWinner Tools is not just a site. It is a small product ecosystem built around quick random decisions.
+## More Projects
 
-### Website
+| Project | Live site | Public repo |
+| --- | --- | --- |
+| PickHeadphones | [pickheadphones.com](https://pickheadphones.com/) | [PickHeadphones](https://github.com/ivanlukichev/PickHeadphones) |
+| HTTPTools | [httptools.net](https://httptools.net/) | [HTTPTools](https://github.com/ivanlukichev/HTTPTools) |
+| CalcSprint | [calcsprint.com](https://calcsprint.com/) | [CalcSprint](https://github.com/ivanlukichev/CalcSprint) |
+| Number Hunt | [numberhuntgame.com](https://numberhuntgame.com/) | [numberhuntgame](https://github.com/ivanlukichev/numberhuntgame) |
+| Sudoku Play | [sudoku-play.org](https://sudoku-play.org/) | [Sudoku-Play](https://github.com/ivanlukichev/Sudoku-Play) |
+| PlayMathPuzzles | [playmathpuzzles.com](https://playmathpuzzles.com/) | [PlayMathPuzzles](https://github.com/ivanlukichev/PlayMathPuzzles) |
+| Word Chain Game | [word-chain-game.com](https://word-chain-game.com/) | [Word-Chain-Game](https://github.com/ivanlukichev/Word-Chain-Game) |
+| BlockPlay | [blockplaygame.com](https://blockplaygame.com/) | [BlockPlay-Game](https://github.com/ivanlukichev/BlockPlay-Game) |
 
-- a growing library of random tools
-- clean browser-based interactions
-- utility pages for coin flips, dice, numbers, names, teams, and more
+## Visit
 
-👉 https://pickwinner.tools/
-
-### Browser Extensions
-
-PickWinner Tools also includes a Coin Flip browser extension for instant toolbar access.
-
-The extension is part of the product, not a separate side project:
-
-- open it directly from the browser toolbar
-- flip a virtual coin in one click
-- get a clean Heads or Tails result
-- return to PickWinner Tools for more random tools
-
----
-
-## 🧰 Core Tools
-
-The broader PickWinner Tools product includes:
-
-- Coin Flip
-- Dice Roller
-- Random Number Generator
-- Random Name Picker
-- Random Team Generator
-- Spin the Wheel
-- Pick a Card
-- Pick a Door
-- Mystery Box Picker
-
----
-
-## 🧩 Install In Your Browser
-
-<!-- Replace the remaining browser statuses and install URLs below when new store pages go live. -->
-
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <strong>Chrome</strong><br><br>
-      <a href="https://chromewebstore.google.com/detail/pickwinner-tools-coin-fli/haoceolgfahonhmneiphppjgkikokgnb">Install for Chrome</a><br>
-      <sub>Available now</sub>
-    </td>
-    <td align="center" width="25%">
-      <strong>Firefox</strong><br><br>
-      <a href="https://addons.mozilla.org/addon/pickwinner-tools-coin-flip/">Install for Firefox</a><br>
-      <sub>Available now</sub>
-    </td>
-    <td align="center" width="25%">
-      <strong>Edge</strong><br><br>
-      <a href="https://microsoftedge.microsoft.com/addons/detail/pickwinner-tools-coin-fli/jkpbnijgddlpjkkjjjdfcemfcgblgjnk">Install for Edge</a><br>
-      <sub>Available now</sub>
-    </td>
-    <td align="center" width="25%">
-      <strong>Opera</strong><br><br>
-      Coming Soon<br>
-      <sub>Planned browser package</sub>
-    </td>
-  </tr>
-</table>
-
-Source packages:
-
-- Shared popup source: [extension/src](https://github.com/ivanlukichev/pickwinner/tree/main/extension/src)
-- Chrome source: [extension/chrome](https://github.com/ivanlukichev/pickwinner/tree/main/extension/chrome)
-- Firefox source: [extension/firefox](https://github.com/ivanlukichev/pickwinner/tree/main/extension/firefox)
-- Edge source: [extension/edge](https://github.com/ivanlukichev/pickwinner/tree/main/extension/edge)
-- Opera source: [extension/opera](https://github.com/ivanlukichev/pickwinner/tree/main/extension/opera)
-
-Privacy policy:
-
-- [extension/privacy-policy.md](https://github.com/ivanlukichev/pickwinner/blob/main/extension/privacy-policy.md)
-
-Repo structure:
-
-- `extension/src/` — shared popup source and base assets
-- `extension/chrome/` — Chrome package
-- `extension/firefox/` — Firefox package
-- `extension/edge/` — Edge package
-- `extension/opera/` — Opera package
-- `extension/store/` — listing notes and submission checklist
-
----
-
-## ⚙️ Tech
-
-- Vanilla JavaScript
-- Static website architecture
-- Lightweight browser extension packages
-- No backend requirement for the current extension
-- Minimal-permission extension design
-
----
-
-## 🎯 Philosophy
-
-PickWinner Tools follows a simple idea:
-
-> open → decide → continue
-
-No clutter. No delays. No overcomplication.
-
-Just useful random tools that solve a small problem quickly.
-
----
-
-## 👨‍💻 Author
-
-Built by **Ivan Lukichev**
-
-More:
-👉 https://lukichev.biz/
-
----
-
-## ⭐ Support
-
-If you like the project:
-
-- ⭐ Star the repo
-- 🌍 Use the tools: https://pickwinner.tools/
-- 🧩 Install the browser extension
-
----
-
-**Quick choices. Clean tools. No friction.**
+<p>
+  <a href="https://pickwinner.tools/"><strong>Open PickWinner Tools</strong></a><br>
+  Fast browser randomizers and decision helpers with an extension layer for coin flips.
+</p>

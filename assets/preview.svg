@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="PickWinner Tools preview">
+  <rect width="1200" height="630" fill="#10182c"/>
+  <circle cx="1010" cy="120" r="175" fill="#f9c74f" opacity="0.16"/>
+  <circle cx="170" cy="520" r="220" fill="#61dafb" opacity="0.1"/>
+  <rect x="84" y="86" width="1032" height="458" rx="34" fill="#16203a" stroke="#31456a" stroke-width="2"/>
+  <text x="120" y="160" fill="#f9c74f" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="2">RANDOM TOOLS AND QUICK DECISIONS</text>
+  <text x="120" y="252" fill="#ffffff" font-family="Arial, sans-serif" font-size="68" font-weight="700">PickWinner Tools</text>
+  <text x="120" y="310" fill="#d9e3f5" font-family="Arial, sans-serif" font-size="28">Spin, flip, roll, pick, and move on without friction.</text>
+  <rect x="120" y="366" width="190" height="52" rx="26" fill="#61dafb"/>
+  <text x="215" y="400" text-anchor="middle" fill="#10182c" font-family="Arial, sans-serif" font-size="24" font-weight="700">Open tools</text>
+  <g transform="translate(758 148)">
+    <circle cx="138" cy="136" r="110" fill="#132038" stroke="#47648f" stroke-width="2"/>
+    <path d="M138 136 L138 34 A102 102 0 0 1 234 188 Z" fill="#f9c74f"/>
+    <path d="M138 136 L234 188 A102 102 0 0 1 54 224 Z" fill="#61dafb"/>
+    <path d="M138 136 L54 224 A102 102 0 0 1 138 34 Z" fill="#ff7f50"/>
+    <circle cx="138" cy="136" r="18" fill="#ffffff"/>
+  </g>
+  <text x="120" y="492" fill="#8ca4c7" font-family="Arial, sans-serif" font-size="22">Live at pickwinner.tools</text>
+</svg>
